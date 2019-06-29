@@ -1,10 +1,10 @@
 import React from 'react';
-import TwoCounters from './Components/TwoCounters.js'
+import TwoCountersOption2 from './Components/TwoCountersOption2.js'
 
 function App() {
   return (
     <div className="App">
-    <TwoCounters />
+    <TwoCountersOption2 />
     </div>
   );
 }

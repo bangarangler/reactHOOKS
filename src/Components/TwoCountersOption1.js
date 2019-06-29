@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { Button } from 'semantic-ui-react'
 
-const TwoCounters = () => {
+const TwoCountersOption1 = () => {
   const [counter, setCounter] = useState(2)
   const [counter2, setCounter2] = useState(3)
+  const [counter3, setCounter3] = useState(4)
   return (
     <div>
     <Button primary onClick={() => setCounter(counter + 1)}>Increment</Button>
@@ -14,4 +15,4 @@ const TwoCounters = () => {
   )
 }
 
-export default TwoCounters;
+export default TwoCountersOption1;
