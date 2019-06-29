@@ -4,7 +4,8 @@ import React from 'react';
 //import Posts from './Components/Posts.js'
 //import ShowClicksUsingClass from './Components/ShowClicksUsingClass.js'
 //import ShowClicksUsingHooks from './Components/ShowClicksUsingHooks'
-import AlbumsAndComments from './Components/AlbumsAndComments'
+//import AlbumsAndComments from './Components/AlbumsAndComments'
+import Clock from './Components/Clock'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
     {/*<Posts />*/}
     {/*<ShowClicksUsingClass />*/}
       {/*<ShowClicksUsingHooks />*/}
-      <AlbumsAndComments />
+        {/*<AlbumsAndComments />*/}
+    <Clock />
     </div>
   );
 }
