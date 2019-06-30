@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import SetIntervalSampleBad from './Components/SetIntervalSampleBad.js'
+import SetIntervalSampleGood from './Components/SetIntervalSampleGood'
 //import { Button, Flag, Segment } from 'semantic-ui-react'
 //import TwoCountersOption2 from './Components/TwoCountersOption2.js'
 //import UserLogin from './Components/UserLogin.js'
@@ -33,6 +35,7 @@ function App() {
     <LanguageContext.Provider value={language}>
     <Level1 />
     </LanguageContext.Provider>*/}
+    <SetIntervalSampleGood />
     </div>
   );
 }
