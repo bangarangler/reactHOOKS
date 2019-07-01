@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import CounterIncrementDecrementSample from './Components/CounterIncrementDecrementSample.js'
+import AlbumsAndCommentsRefactored from './Components/AlbumsAndCommentsRefactored'
+//import CounterIncrementDecrementSample from './Components/CounterIncrementDecrementSample.js'
 //import UserLoginWithRef from './Components/UserLoginWithRef'
 //import SetIntervalSampleBad from './Components/SetIntervalSampleBad.js'
 //import SetIntervalSampleGood from './Components/SetIntervalSampleGood'
@@ -39,7 +40,8 @@ function App() {
     </LanguageContext.Provider>*/}
       {/*<SetIntervalSampleGood />*/}
       {/*<UserLoginWithRef />*/}
-      <CounterIncrementDecrementSample initialState={{count: 0}}/>
+      {/*<CounterIncrementDecrementSample initialState={{count: 0}}/>*/}
+      <AlbumsAndCommentsRefactored />
     </div>
   );
 }
