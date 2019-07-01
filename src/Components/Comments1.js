@@ -1,17 +1,9 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+import React from 'react'
+import {useFetchResources} from './customHooks/useFetchResources.js'
 
 const Comments1 = ({resource}) => {
-  const [resources, setResources] = useState([])
-  const url = `https://jsonplaceholder.typicode.com/${resource}`
 
-  const fetchResources = () => {
-    axios.get(url).then(res => {
-      setResources(res.data)
-    }).catch(err => console.log(err))
-  }
-
-  useEffect(fetchResources, [resource])
+  const resources = useFetchResources(resource)
 
   const elements = (
     <ul>
