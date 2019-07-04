@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Parent from './Components/Parent'
+import ParentUseCallbackNew from './Components/ParentUseCallbackNew.js'
+//import Parent from './Components/Parent'
 //import AlbumsAndCommentsRefactored from './Components/AlbumsAndCommentsRefactored'
 //import CounterIncrementDecrementSample from './Components/CounterIncrementDecrementSample.js'
 //import UserLoginWithRef from './Components/UserLoginWithRef'
@@ -43,7 +44,8 @@ function App() {
       {/*<UserLoginWithRef />*/}
       {/*<CounterIncrementDecrementSample initialState={{count: 0}}/>*/}
       {/*<AlbumsAndCommentsRefactored />*/}
-      <Parent />
+      {/*<Parent />*/}
+      <ParentUseCallbackNew />
     </div>
   );
 }
